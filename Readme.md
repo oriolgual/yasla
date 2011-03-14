@@ -13,21 +13,21 @@ YASLA is a simple web app to manage shopping lists collaboratively.
 
 ### Editing mode
 
-* Lists (RESTful)
-** Split list total cost with people sharing it
-** Check people as payed (only owner)
+#### Lists (RESTful)
+* Split list total cost with people sharing it
+* Check people as payed (only owner)
 
-* Items (RESTful)
-** Add items to a shopping list
-** Add itmes by autodiscover (most commonn items bought on past lists)
-** Add item amount
-** Assign item to category
+#### Items (RESTful)
+* Add items to a shopping list
+* Add itmes by autodiscover (most commonn items bought on past lists)
+* Add item amount
+* Assign item to category
 
-* Categories (RESTful)
-** Set default custom order for all categories
+#### Categories (RESTful)
+* Set default custom order for all categories
 
-* Locations (RESTful)
-** Order categories scoped to location
+#### Locations (RESTful)
+* Order categories scoped to location
 
 
 ### Shopping mode
@@ -38,26 +38,15 @@ YASLA is a simple web app to manage shopping lists collaboratively.
 * Store total spent (if it can't be autocalculated)
 
 ####  Items
-* Sorting/grouping:
-** By category
-** Alphabetically
-** By date
-** By frequency
-
+* Sorted alphabetically
+* Grouped by category/ungrouped
 * Check items as bought
-
-* Add metadata to a bought item:
-** Price
-** Amount
-** Unit (gr, lbs, litres)
+* Add metadata to a bought item: price, amount, unit (gr, lbs, litres)
 
 #### Categories
-
-* Sorting/grouping categories:
-** Alphabetically
-** By custom order (supermarkets change the products from time to time)
-** By custom order scoped to location (each supermaket may have its own
-ordering)
+* Sort alphabetically
+* Sort by custom order (supermarkets change the products from time to time)
+* Sort by custom order scoped to location (each supermaket may have its own ordering)
 
 #### Location
 * Store location coordinates
