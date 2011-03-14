@@ -19,15 +19,15 @@ YASLA is a simple web app to manage shopping lists collaboratively.
 
 #### Items (RESTful)
 * Add items to a shopping list
-* Add itmes by autodiscover (most commonn items bought on past lists)
+* Add itmes by autodiscover (most common items bought on past lists)
 * Add item amount
 * Assign item to category
 
 #### Categories (RESTful)
 * Set default custom order for all categories
 
-#### Locations (RESTful)
-* Order categories scoped to location
+#### Stores (RESTful)
+* Order categories scoped to store
 
 
 ### Shopping mode
@@ -45,9 +45,9 @@ YASLA is a simple web app to manage shopping lists collaboratively.
 
 #### Categories
 * Sort alphabetically
-* Sort by custom order (supermarkets change the products from time to time)
-* Sort by custom order scoped to location (each supermaket may have its own ordering)
+* Sort by custom order (stores change the products from time to time)
+* Sort by custom order scoped to store (each store may have its own ordering)
 
-#### Location
-* Store location coordinates
-* Store location name
+#### Stores
+* Store coordinates
+* Store name
